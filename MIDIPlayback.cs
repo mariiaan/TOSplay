@@ -278,7 +278,7 @@ namespace TOSPlay
         {
             device.SendNoteOn(Channel.Channel1, p, 80);
             Thread.Sleep(len);
-            device.SendNoteOff(Channel.Channel1, Pitch.C4, 80);
+            device.SendNoteOff(Channel.Channel1, p, 80);
         }
     }
 }
