@@ -8,7 +8,7 @@ namespace TOSPlay
         {
             List<Instruction> instructions = new List<Instruction>();
 
-            int interval = (int)((60f / bpm) * 1000);
+            int interval = (int)(60f / bpm * 1000);
 
             int currentOctave = 4;
             float currentDurationMultiplier = 1f;
